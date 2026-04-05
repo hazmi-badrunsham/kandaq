@@ -7,7 +7,7 @@ class AppTypography {
   // Primary font: Modern, clean, slightly nostalgic
   // 'Inter' for UI + 'Playfair Display' for brand moments
   static final headingLarge = GoogleFonts.playfairDisplay(
-    fontSize: 32,
+    fontSize: 40,
     fontWeight: FontWeight.w700,
     color: AppColors.textPrimary,
     height: 1.2,
