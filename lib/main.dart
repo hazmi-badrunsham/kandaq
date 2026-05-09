@@ -1,8 +1,6 @@
 // lib/main.dart
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:kandaq/core/theme/app_colors.dart'; // Ensure these paths are correct
-import 'package:kandaq/core/theme/app_typography.dart';
 import 'package:kandaq/core/router/app_router.dart'; // 🆕 Import your new router
 import 'firebase_options.dart';
 

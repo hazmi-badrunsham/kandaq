@@ -27,11 +27,15 @@ class AppColors {
 }
 
 class HomepageColors {
-  static const Color background = Color(0xFFFFFFFF); // Pure white
-  static const Color textPrimary = Color(0xFF000000); // Headings, stats
-  static const Color textSecondary = Color(0xFF666666); // Labels, meta
-  static const Color textTertiary = Color(0xFF999999); // Sources, timestamps
-  static const Color border = Color(0xFFE0E0E0); // Dividers, card borders
-  static const Color accent = Color(0xFF000000); // CTAs, interactive elements
-  
+  static const Color background = Color(0xFFFFFFFF);
+
+  static const Color surface = Color(0xFFF8F8F8);
+
+  static const Color textPrimary = Color(0xFF000000);
+  static const Color textSecondary = Color(0xFF666666);
+  static const Color textTertiary = Color(0xFF999999);
+
+  static const Color border = Color(0xFFE0E0E0);
+
+  static const Color accent = Color(0xFF000000);
 }
