@@ -5,6 +5,8 @@ import 'package:go_router/go_router.dart';
 
 import '../../features/auth/presentation/screens/login_screen.dart';
 import '../../features/auth/presentation/screens/signup_screen.dart';
+import '../../features/home//screens/home_screen.dart';
+
   
 // Temporary dashboard
 class DashboardScreen extends StatelessWidget {
@@ -72,7 +74,7 @@ final appRouter = GoRouter(
     ),
     GoRoute(
       path: '/dashboard',
-      builder: (_, __) => const DashboardScreen(),
+      builder: (_, __) => const HomeScreen(),
     ),
   ],
 );

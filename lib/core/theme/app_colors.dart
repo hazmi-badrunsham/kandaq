@@ -17,10 +17,21 @@ class AppColors {
   // Borders & Dividers
   static const Color border = Color(0xFFE0E0E0); // Input borders, dividers
   static const Color borderFocus = Color(0xFF000000); // Focused input border
-  
+  // In AppColors:
+  static const Color textTertiary = Color(0xFF999999);
   // Error
   static const Color error = Color(0xFFCC0000); // Minimal red for errors only
   
   // Batik-inspired subtle pattern (monochrome)
   // Use as decorative divider: 1px dashed line with 4px gap
+}
+
+class HomepageColors {
+  static const Color background = Color(0xFFFFFFFF); // Pure white
+  static const Color textPrimary = Color(0xFF000000); // Headings, stats
+  static const Color textSecondary = Color(0xFF666666); // Labels, meta
+  static const Color textTertiary = Color(0xFF999999); // Sources, timestamps
+  static const Color border = Color(0xFFE0E0E0); // Dividers, card borders
+  static const Color accent = Color(0xFF000000); // CTAs, interactive elements
+  
 }

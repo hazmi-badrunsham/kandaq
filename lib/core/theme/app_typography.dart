@@ -47,4 +47,18 @@ class AppTypography {
     color: AppColors.textPrimary,
     height: 1.0,
   );
+
+  // Homepage / Editorial styles
+static final display = GoogleFonts.instrumentSerif(
+  fontSize: 52, fontWeight: FontWeight.w400, color: AppColors.textPrimary, height: 1.05,
+);
+
+static final statValue = GoogleFonts.inter(
+  fontSize: 32, fontWeight: FontWeight.w600, color: AppColors.textPrimary, height: 1.1,
+);
+
+static final metaSmall = GoogleFonts.inter(
+  fontSize: 12, fontWeight: FontWeight.w500, color: AppColors.textTertiary ?? AppColors.textSecondary, height: 1.4,
+);
 }
+
